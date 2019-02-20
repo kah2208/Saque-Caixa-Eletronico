@@ -1,0 +1,32 @@
+Inicio
+    inteiro: Numero;
+
+    Leia (Numero);
+
+    Se Numero < 10 OU Numero mod 10 < 0 então
+    Escreva ("ERRO");
+    Senao
+    Enquanto Numero > 0 Faça
+    Inicio
+        Enquanto Numero >= 100 Faça
+        Inicio
+        Numero <- Numero - 100;
+        Escreva ("100,00");
+        Fim
+        Enquanto Numero >= 50 Faça
+        Inicio
+        Numero <- Numero - 50;
+        Escreva ("50,00");
+        Fim
+        Enquanto Numero >= 20 Faça
+        Inicio
+        Numero <- Numero - 20;
+        Escreva ("20,00");
+        Fim
+        Enquanto Numero >= 10 Faça
+        Inicio
+        Numero <- Numero - 10;
+        Escreva ("10,00");
+        Fim
+    Fim    
+Fim
